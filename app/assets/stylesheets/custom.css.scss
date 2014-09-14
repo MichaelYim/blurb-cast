@@ -185,6 +185,7 @@ input {
     border-top: 1px solid $grayLighter;
     &:last-child {
       border-bottom: 1px solid $grayLighter;
+    list-style-type: none;
     }
   }
 }
