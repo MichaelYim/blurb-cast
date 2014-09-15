@@ -4992,7 +4992,7 @@ aside section {
   aside section:first-child {
     border: 0;
     padding-top: 0; }
-  aside section col-md-4 {
+  aside section span4 {
     display: block;
     margin-bottom: 3px;
     line-height: 1; }
