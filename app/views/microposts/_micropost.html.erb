@@ -1,7 +1,8 @@
 <hr>
+<li>
   <div class="row">
     <span class="content"><%= micropost.content %></span>
-    <span class="timestamp" style="color:#DCDFDF;">
+    <span class="timestamp">
       Posted <%= time_ago_in_words(micropost.created_at) %> ago.
     </span>
     <% if current_user?(micropost.user) %>
@@ -11,3 +12,5 @@
     <% end %>
 
   </div>
+
+</li>
